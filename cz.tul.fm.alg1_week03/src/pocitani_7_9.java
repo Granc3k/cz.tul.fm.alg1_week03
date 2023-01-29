@@ -41,6 +41,7 @@ public class pocitani_7_9 {
                 // var na porovnávání
 
                 // cal (porovnání rychlostí,časů
+                double porovnani_V = v_in - v_max;
                 double porovnani_T = t_max - t_in;
                 System.out.println("Vozidlo v dané dráze dosáhlo " + v_in + "km/h a mělo "
                                 + "rozdíl mezi max a jeho průměrnou rychlostí je: " + porovnani_V
